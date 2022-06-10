@@ -22,8 +22,8 @@ const listener = app.listen(process.env.PORT || 3000, () => {
 
 
 // 01 - set up db
-//mongo url: mongodb+srv://Giselle:G@cluster0.im2ul.mongodb.net/?retryWrites=true&w=majority
-let uri = 'mongodb+srv://Giselle:G@cluster0.im2ul.mongodb.net/?retryWrites=true&w=majority'
+//mongo url: your mongodb connection link
+let uri = 'your link'
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // 02 - create a model -> 2 tables not in 1 
